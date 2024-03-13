@@ -44,7 +44,7 @@ setup() {
      sudo yum-config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
      sudo yum install -y gh
 
-     sudo pip install docker-compose
+#     sudo pip install docker-compose
 
     ## terraform
     sudo yum install -y yum-utils
