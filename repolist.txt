@@ -1,0 +1,1 @@
+git@github.com:HOUSEI-INC/Kyodo-Candy-infra.git

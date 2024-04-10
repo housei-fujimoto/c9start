@@ -1,0 +1,27 @@
+[credential]
+	helper = !aws codecommit credential-helper $@
+	UseHttpPath = true
+
+[core]
+	editor = /usr/bin/nano
+
+[user]
+	name = housei-fujimoto
+	email = ryunosuke.fujimoto@housei-inc.com
+
+[alias]
+    pp = pull -p
+    # ファイル名のみの差分を表示する
+    difff = diff --name-only
+    # staged diff
+    diffs = diff --cached
+    dp = diff --no-prefix
+    dsp = diff --cached --no-prefix
+    br = branch
+    co = checkout
+    st = status
+    lg = log --graph --pretty=format:'%Cred%h%Creset - %s%C(yellow)%d%Creset %Cgreen(%cr:%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --date=iso
+    lga = !"git lg --all"
+    lgt = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(bold white)― %an%C(reset)' --abbrev-commit
+    lgl = log --graph --all --decorate
+    unstage = reset HEAD
