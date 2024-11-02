@@ -1,1 +1,2 @@
 git@github.com:HOUSEI-INC/Kyodo-Candy-infra.git
+git@github.com:HOUSEI-INC/novo-cms-infra.git
